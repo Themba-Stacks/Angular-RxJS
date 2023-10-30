@@ -24,7 +24,8 @@
 
     <div class="table-responsive">
       <table class="table mb-0"
-             *ngIf="products">
+             *ngIf="products$ | async as products">
+        <caption>Product list table</caption>
         <thead>
           <tr>
             <th>Product</th>
