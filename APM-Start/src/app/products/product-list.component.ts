@@ -25,15 +25,6 @@ export class ProductListComponent {
     })
   );
 
-  // ngOnInit(): void {
-  //   this.products$ = this.productService.getProducts().pipe(
-  //     catchError((err) => {
-  //       this.errorMessage = err;
-  //       return EMPTY;
-  //     })
-  //   );
-  // }
-
   onAdd(): void {
     console.log('Not yet implemented');
   }
